@@ -13,5 +13,10 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "import/order": [2, { "alphabetize": { "order": "asc" } }]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": { "project": "./" }
+    }
   }
 }
